@@ -1,0 +1,172 @@
+[
+  {
+    "alert_id": "ALERT-0001",
+    "generated_at": "2026-02-24 21:30:29",
+    "time_window": "2025-03-06 14:45:00",
+    "attack_type": "DDOS_FLOOD",
+    "severity": "HIGH",
+    "priority": "CRITICAL",
+    "anomaly_score": -0.2658,
+    "indicators": {
+      "event_count": 62,
+      "error_ratio": 0.97,
+      "failed_logins": 0,
+      "unique_ips": 5,
+      "avg_bytes": 30320.0
+    },
+    "automated_actions": [
+      "Enable rate limiting on affected service",
+      "Activate DDoS mitigation (Cloudflare/AWS Shield)",
+      "Block offending IP ranges at edge",
+      "Page on-call network engineer",
+      "Notify SOC analyst via Slack #incidents"
+    ]
+  },
+  {
+    "alert_id": "ALERT-0002",
+    "generated_at": "2026-02-24 21:30:29",
+    "time_window": "2025-03-06 11:10:00",
+    "attack_type": "BRUTE_FORCE",
+    "severity": "HIGH",
+    "priority": "HIGH",
+    "anomaly_score": -0.2234,
+    "indicators": {
+      "event_count": 54,
+      "error_ratio": 0.83,
+      "failed_logins": 45,
+      "unique_ips": 9,
+      "avg_bytes": 579.0
+    },
+    "automated_actions": [
+      "Block source IP at firewall",
+      "Lock targeted user account for 30 minutes",
+      "Enable enhanced MFA for targeted account",
+      "Notify SOC analyst via Slack #incidents"
+    ]
+  },
+  {
+    "alert_id": "ALERT-0003",
+    "generated_at": "2026-02-24 21:30:29",
+    "time_window": "2025-03-06 13:30:00",
+    "attack_type": "PORT_SCAN",
+    "severity": "MEDIUM",
+    "priority": "MEDIUM",
+    "anomaly_score": -0.1188,
+    "indicators": {
+      "event_count": 42,
+      "error_ratio": 0.0,
+      "failed_logins": 0,
+      "unique_ips": 8,
+      "avg_bytes": 484.0
+    },
+    "automated_actions": [
+      "Block source IP at firewall",
+      "Trigger full network scan from scanner IP range",
+      "Log all connections from source IP for 24h",
+      "Create investigation ticket"
+    ]
+  },
+  {
+    "alert_id": "ALERT-0004",
+    "generated_at": "2026-02-24 21:30:29",
+    "time_window": "2025-03-06 15:10:00",
+    "attack_type": "PRIVILEGE_ESCALATION",
+    "severity": "LOW",
+    "priority": "CRITICAL",
+    "anomaly_score": -0.0619,
+    "indicators": {
+      "event_count": 9,
+      "error_ratio": 0.56,
+      "failed_logins": 0,
+      "unique_ips": 4,
+      "avg_bytes": 733.0
+    },
+    "automated_actions": [
+      "Immediately suspend affected user session",
+      "Revoke all active tokens for user",
+      "Capture forensic snapshot of host",
+      "Escalate to Incident Response team",
+      "Page CISO"
+    ]
+  },
+  {
+    "alert_id": "ALERT-0005",
+    "generated_at": "2026-02-24 21:30:29",
+    "time_window": "2025-03-06 08:10:00",
+    "attack_type": "UNKNOWN_ANOMALY",
+    "severity": "LOW",
+    "priority": "LOW",
+    "anomaly_score": -0.0558,
+    "indicators": {
+      "event_count": 1,
+      "error_ratio": 0.0,
+      "failed_logins": 0,
+      "unique_ips": 1,
+      "avg_bytes": 2059.0
+    },
+    "automated_actions": [
+      "Flag for manual review",
+      "Collect additional log context (\u00b115 min window)"
+    ]
+  },
+  {
+    "alert_id": "ALERT-0006",
+    "generated_at": "2026-02-24 21:30:29",
+    "time_window": "2025-03-06 14:40:00",
+    "attack_type": "UNKNOWN_ANOMALY",
+    "severity": "LOW",
+    "priority": "LOW",
+    "anomaly_score": -0.0233,
+    "indicators": {
+      "event_count": 1,
+      "error_ratio": 0.0,
+      "failed_logins": 0,
+      "unique_ips": 1,
+      "avg_bytes": 3567.0
+    },
+    "automated_actions": [
+      "Flag for manual review",
+      "Collect additional log context (\u00b115 min window)"
+    ]
+  },
+  {
+    "alert_id": "ALERT-0007",
+    "generated_at": "2026-02-24 21:30:29",
+    "time_window": "2025-03-06 10:50:00",
+    "attack_type": "UNKNOWN_ANOMALY",
+    "severity": "LOW",
+    "priority": "LOW",
+    "anomaly_score": -0.0206,
+    "indicators": {
+      "event_count": 1,
+      "error_ratio": 0.0,
+      "failed_logins": 0,
+      "unique_ips": 1,
+      "avg_bytes": 3375.0
+    },
+    "automated_actions": [
+      "Flag for manual review",
+      "Collect additional log context (\u00b115 min window)"
+    ]
+  },
+  {
+    "alert_id": "ALERT-0008",
+    "generated_at": "2026-02-24 21:30:29",
+    "time_window": "2025-03-06 15:15:00",
+    "attack_type": "UNKNOWN_ANOMALY",
+    "severity": "LOW",
+    "priority": "LOW",
+    "anomaly_score": -0.0027,
+    "indicators": {
+      "event_count": 3,
+      "error_ratio": 0.0,
+      "failed_logins": 0,
+      "unique_ips": 2,
+      "avg_bytes": 771.0
+    },
+    "automated_actions": [
+      "Flag for manual review",
+      "Collect additional log context (\u00b115 min window)"
+    ]
+  }
+]

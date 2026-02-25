@@ -1,0 +1,646 @@
+timestamp,level,message,user,src_ip,service,bytes
+2025-03-06 08:00:18,INFO,Database query executed,charlie,10.0.0.1,mysql,980
+2025-03-06 08:00:55,INFO,SSL handshake completed,frank,10.0.0.18,https,1678
+2025-03-06 08:01:32,INFO,DNS query resolved,frank,10.0.0.5,dns,1128
+2025-03-06 08:01:46,INFO,DNS query resolved,dave,10.0.0.25,dns,1527
+2025-03-06 08:04:13,INFO,User logout,eve,10.0.0.14,ssh,1503
+2025-03-06 08:04:16,INFO,SSL handshake completed,bob,10.0.0.22,https,912
+2025-03-06 08:05:05,INFO,User logout,dave,10.0.0.19,ssh,883
+2025-03-06 08:07:36,INFO,DNS query resolved,dave,10.0.0.4,dns,3789
+2025-03-06 08:11:39,INFO,User login success,frank,10.0.0.11,ssh,2059
+2025-03-06 08:15:48,INFO,File downloaded,bob,10.0.0.23,ftp,2595
+2025-03-06 08:15:51,WARNING,Slow query detected,bob,10.0.0.22,mysql,3376
+2025-03-06 08:17:00,INFO,File downloaded,frank,10.0.0.20,ftp,3653
+2025-03-06 08:17:21,INFO,User login success,admin,10.0.0.7,ssh,1969
+2025-03-06 08:17:52,INFO,Database query executed,alice,10.0.0.15,mysql,3706
+2025-03-06 08:19:00,INFO,File downloaded,admin,10.0.0.8,ftp,3064
+2025-03-06 08:20:11,INFO,DNS query resolved,alice,10.0.0.2,dns,1698
+2025-03-06 08:20:36,INFO,Database query executed,frank,10.0.0.20,mysql,1137
+2025-03-06 08:20:55,INFO,DNS query resolved,frank,10.0.0.16,dns,1200
+2025-03-06 08:22:53,INFO,Database query executed,bob,10.0.0.17,mysql,3326
+2025-03-06 08:23:50,INFO,Database query executed,eve,10.0.0.16,mysql,3187
+2025-03-06 08:24:42,WARNING,Slow query detected,admin,10.0.0.19,mysql,4666
+2025-03-06 08:24:44,INFO,User login success,alice,10.0.0.23,ssh,2792
+2025-03-06 08:25:01,INFO,Email sent,frank,10.0.0.10,smtp,717
+2025-03-06 08:25:07,INFO,Database query executed,frank,10.0.0.2,mysql,2467
+2025-03-06 08:26:34,INFO,User login success,bob,10.0.0.16,ssh,4958
+2025-03-06 08:28:26,INFO,Database query executed,alice,10.0.0.21,mysql,626
+2025-03-06 08:30:40,INFO,Database query executed,dave,10.0.0.3,mysql,2606
+2025-03-06 08:31:03,INFO,SSL handshake completed,admin,10.0.0.28,https,1586
+2025-03-06 08:33:06,WARNING,Slow query detected,eve,10.0.0.11,mysql,959
+2025-03-06 08:33:13,INFO,User logout,frank,10.0.0.13,ssh,3556
+2025-03-06 08:33:17,INFO,Database query executed,admin,10.0.0.2,mysql,4849
+2025-03-06 08:35:52,INFO,File downloaded,bob,10.0.0.20,ftp,4859
+2025-03-06 08:36:39,INFO,Page request served,frank,10.0.0.3,http,827
+2025-03-06 08:37:25,INFO,Page request served,eve,10.0.0.28,http,1990
+2025-03-06 08:37:39,INFO,SSL handshake completed,eve,10.0.0.11,https,167
+2025-03-06 08:38:46,INFO,User login success,alice,10.0.0.3,ssh,321
+2025-03-06 08:38:52,INFO,Email sent,bob,10.0.0.26,smtp,4895
+2025-03-06 08:38:59,INFO,User login success,alice,10.0.0.26,ssh,2583
+2025-03-06 08:39:21,WARNING,Slow query detected,frank,10.0.0.24,mysql,410
+2025-03-06 08:40:00,INFO,SSL handshake completed,alice,10.0.0.17,https,2236
+2025-03-06 08:40:08,INFO,Page request served,bob,10.0.0.20,http,1279
+2025-03-06 08:41:30,INFO,Email sent,admin,10.0.0.23,smtp,2534
+2025-03-06 08:43:16,INFO,User login success,bob,10.0.0.7,ssh,1288
+2025-03-06 08:44:00,INFO,File downloaded,alice,10.0.0.8,ftp,3201
+2025-03-06 08:45:48,INFO,File downloaded,bob,10.0.0.15,ftp,4269
+2025-03-06 08:46:23,INFO,User login success,alice,10.0.0.6,ssh,471
+2025-03-06 08:46:31,INFO,Email sent,admin,10.0.0.18,smtp,3473
+2025-03-06 08:48:07,WARNING,Slow query detected,frank,10.0.0.4,mysql,2057
+2025-03-06 08:49:49,INFO,User logout,bob,10.0.0.14,ssh,2794
+2025-03-06 08:50:03,INFO,Email sent,eve,10.0.0.21,smtp,4955
+2025-03-06 08:50:06,INFO,SSL handshake completed,alice,10.0.0.13,https,3503
+2025-03-06 08:50:49,INFO,DNS query resolved,alice,10.0.0.13,dns,2057
+2025-03-06 08:50:56,INFO,Email sent,alice,10.0.0.14,smtp,4042
+2025-03-06 08:51:00,INFO,Email sent,eve,10.0.0.10,smtp,1904
+2025-03-06 08:51:02,WARNING,Slow query detected,dave,10.0.0.12,mysql,213
+2025-03-06 08:52:49,INFO,Database query executed,frank,10.0.0.12,mysql,2230
+2025-03-06 08:52:52,INFO,User login success,bob,10.0.0.13,ssh,3489
+2025-03-06 08:53:28,INFO,User login success,eve,10.0.0.18,ssh,184
+2025-03-06 08:54:09,INFO,Page request served,frank,10.0.0.21,http,4580
+2025-03-06 08:54:27,INFO,SSL handshake completed,charlie,10.0.0.1,https,1244
+2025-03-06 08:56:01,INFO,User login success,dave,10.0.0.10,ssh,3909
+2025-03-06 08:56:01,INFO,SSL handshake completed,frank,10.0.0.4,https,2399
+2025-03-06 08:56:01,INFO,Page request served,bob,10.0.0.22,http,2485
+2025-03-06 08:58:14,INFO,Email sent,charlie,10.0.0.19,smtp,3004
+2025-03-06 08:59:10,INFO,Email sent,charlie,10.0.0.1,smtp,4663
+2025-03-06 09:00:33,INFO,DNS query resolved,eve,10.0.0.22,dns,4922
+2025-03-06 09:00:55,INFO,DNS query resolved,charlie,10.0.0.6,dns,3780
+2025-03-06 09:03:25,INFO,Page request served,alice,10.0.0.29,http,4467
+2025-03-06 09:05:17,INFO,SSL handshake completed,frank,10.0.0.23,https,1580
+2025-03-06 09:06:54,INFO,DNS query resolved,charlie,10.0.0.8,dns,1218
+2025-03-06 09:06:58,INFO,File downloaded,frank,10.0.0.3,ftp,3767
+2025-03-06 09:08:10,WARNING,Slow query detected,admin,10.0.0.18,mysql,2465
+2025-03-06 09:08:21,INFO,DNS query resolved,dave,10.0.0.18,dns,829
+2025-03-06 09:08:46,INFO,Email sent,admin,10.0.0.27,smtp,4604
+2025-03-06 09:08:56,INFO,User logout,eve,10.0.0.4,ssh,4684
+2025-03-06 09:09:07,INFO,DNS query resolved,admin,10.0.0.2,dns,4597
+2025-03-06 09:09:30,INFO,Email sent,charlie,10.0.0.22,smtp,3169
+2025-03-06 09:10:05,INFO,SSL handshake completed,eve,10.0.0.19,https,1554
+2025-03-06 09:10:07,INFO,User logout,dave,10.0.0.6,ssh,2235
+2025-03-06 09:10:25,INFO,Page request served,bob,10.0.0.18,http,3149
+2025-03-06 09:10:33,WARNING,Slow query detected,dave,10.0.0.23,mysql,1949
+2025-03-06 09:10:52,INFO,Page request served,admin,10.0.0.10,http,3325
+2025-03-06 09:11:28,INFO,DNS query resolved,charlie,10.0.0.11,dns,658
+2025-03-06 09:12:20,INFO,Database query executed,admin,10.0.0.29,mysql,2065
+2025-03-06 09:14:05,WARNING,Slow query detected,charlie,10.0.0.12,mysql,4489
+2025-03-06 09:14:06,INFO,User logout,alice,10.0.0.2,ssh,2195
+2025-03-06 09:16:20,INFO,User login success,admin,10.0.0.10,ssh,4099
+2025-03-06 09:16:33,WARNING,Slow query detected,alice,10.0.0.9,mysql,3853
+2025-03-06 09:20:28,WARNING,Slow query detected,admin,10.0.0.8,mysql,3759
+2025-03-06 09:20:35,INFO,User login success,frank,10.0.0.28,ssh,937
+2025-03-06 09:22:26,INFO,User logout,admin,10.0.0.16,ssh,3686
+2025-03-06 09:22:51,INFO,File downloaded,frank,10.0.0.19,ftp,2553
+2025-03-06 09:24:30,INFO,User logout,alice,10.0.0.28,ssh,950
+2025-03-06 09:24:37,INFO,Page request served,bob,10.0.0.28,http,892
+2025-03-06 09:26:19,INFO,User logout,charlie,10.0.0.16,ssh,3868
+2025-03-06 09:28:49,INFO,Database query executed,bob,10.0.0.7,mysql,2251
+2025-03-06 09:29:54,WARNING,Slow query detected,admin,10.0.0.13,mysql,2236
+2025-03-06 09:29:55,INFO,File downloaded,bob,10.0.0.23,ftp,1911
+2025-03-06 09:31:00,INFO,User logout,bob,10.0.0.15,ssh,410
+2025-03-06 09:31:38,INFO,Page request served,frank,10.0.0.27,http,1405
+2025-03-06 09:32:50,INFO,File downloaded,admin,10.0.0.20,ftp,3197
+2025-03-06 09:33:29,INFO,Database query executed,frank,10.0.0.19,mysql,401
+2025-03-06 09:33:51,INFO,User logout,frank,10.0.0.23,ssh,3028
+2025-03-06 09:34:17,INFO,User logout,admin,10.0.0.26,ssh,2682
+2025-03-06 09:35:09,INFO,DNS query resolved,admin,10.0.0.5,dns,3512
+2025-03-06 09:37:31,INFO,DNS query resolved,admin,10.0.0.4,dns,4951
+2025-03-06 09:37:59,INFO,DNS query resolved,admin,10.0.0.23,dns,4439
+2025-03-06 09:39:07,WARNING,Slow query detected,eve,10.0.0.27,mysql,4092
+2025-03-06 09:43:39,INFO,Page request served,frank,10.0.0.27,http,3789
+2025-03-06 09:43:48,INFO,DNS query resolved,admin,10.0.0.23,dns,3636
+2025-03-06 09:44:20,INFO,Page request served,alice,10.0.0.24,http,3393
+2025-03-06 09:44:36,INFO,Email sent,eve,10.0.0.16,smtp,2329
+2025-03-06 09:46:18,INFO,Database query executed,dave,10.0.0.10,mysql,666
+2025-03-06 09:48:42,INFO,SSL handshake completed,charlie,10.0.0.17,https,393
+2025-03-06 09:48:52,INFO,User login success,dave,10.0.0.5,ssh,2018
+2025-03-06 09:48:59,INFO,User logout,bob,10.0.0.10,ssh,1928
+2025-03-06 09:51:10,INFO,DNS query resolved,dave,10.0.0.5,dns,2423
+2025-03-06 09:51:25,INFO,Database query executed,dave,10.0.0.5,mysql,2624
+2025-03-06 09:51:38,INFO,DNS query resolved,alice,10.0.0.25,dns,1188
+2025-03-06 09:53:08,INFO,Email sent,frank,10.0.0.28,smtp,1972
+2025-03-06 09:55:13,INFO,Database query executed,alice,10.0.0.21,mysql,4153
+2025-03-06 09:57:35,INFO,Database query executed,admin,10.0.0.3,mysql,3176
+2025-03-06 09:58:53,INFO,User login success,dave,10.0.0.24,ssh,4505
+2025-03-06 09:59:02,INFO,User logout,eve,10.0.0.9,ssh,3085
+2025-03-06 10:00:25,WARNING,Slow query detected,dave,10.0.0.2,mysql,126
+2025-03-06 10:01:44,INFO,User login success,eve,10.0.0.7,ssh,3328
+2025-03-06 10:02:27,INFO,Page request served,alice,10.0.0.26,http,1201
+2025-03-06 10:02:42,INFO,Page request served,bob,10.0.0.1,http,4883
+2025-03-06 10:02:46,INFO,File downloaded,bob,10.0.0.27,ftp,1229
+2025-03-06 10:05:54,INFO,Page request served,eve,10.0.0.7,http,2648
+2025-03-06 10:06:48,INFO,User logout,eve,10.0.0.9,ssh,3828
+2025-03-06 10:07:47,INFO,SSL handshake completed,alice,10.0.0.10,https,3906
+2025-03-06 10:08:03,INFO,DNS query resolved,bob,10.0.0.11,dns,4488
+2025-03-06 10:08:12,INFO,DNS query resolved,alice,10.0.0.24,dns,804
+2025-03-06 10:08:56,INFO,Database query executed,admin,10.0.0.22,mysql,3073
+2025-03-06 10:09:17,INFO,File downloaded,frank,10.0.0.26,ftp,1514
+2025-03-06 10:09:17,INFO,User logout,admin,10.0.0.12,ssh,4602
+2025-03-06 10:09:46,INFO,DNS query resolved,admin,10.0.0.2,dns,2017
+2025-03-06 10:13:43,INFO,User logout,dave,10.0.0.28,ssh,660
+2025-03-06 10:13:44,INFO,Email sent,alice,10.0.0.24,smtp,903
+2025-03-06 10:14:41,INFO,SSL handshake completed,dave,10.0.0.9,https,4852
+2025-03-06 10:15:35,INFO,File downloaded,frank,10.0.0.11,ftp,4796
+2025-03-06 10:15:47,INFO,Email sent,alice,10.0.0.18,smtp,3739
+2025-03-06 10:16:19,INFO,Page request served,admin,10.0.0.24,http,1588
+2025-03-06 10:16:25,INFO,Page request served,charlie,10.0.0.26,http,4572
+2025-03-06 10:16:51,INFO,Email sent,eve,10.0.0.18,smtp,2312
+2025-03-06 10:17:46,INFO,Page request served,charlie,10.0.0.1,http,4482
+2025-03-06 10:17:53,INFO,User logout,admin,10.0.0.27,ssh,599
+2025-03-06 10:19:26,INFO,User login success,frank,10.0.0.15,ssh,2420
+2025-03-06 10:19:47,INFO,Email sent,alice,10.0.0.20,smtp,1316
+2025-03-06 10:22:57,INFO,DNS query resolved,eve,10.0.0.15,dns,1821
+2025-03-06 10:24:31,INFO,Page request served,alice,10.0.0.8,http,1487
+2025-03-06 10:24:32,INFO,Email sent,frank,10.0.0.19,smtp,3476
+2025-03-06 10:25:42,INFO,File downloaded,frank,10.0.0.23,ftp,949
+2025-03-06 10:25:54,INFO,User login success,bob,10.0.0.24,ssh,2509
+2025-03-06 10:26:34,INFO,Database query executed,frank,10.0.0.8,mysql,773
+2025-03-06 10:27:25,INFO,SSL handshake completed,alice,10.0.0.22,https,2720
+2025-03-06 10:28:50,INFO,File downloaded,bob,10.0.0.27,ftp,4011
+2025-03-06 10:29:58,INFO,User logout,admin,10.0.0.23,ssh,2404
+2025-03-06 10:31:48,INFO,User logout,eve,10.0.0.27,ssh,3052
+2025-03-06 10:32:05,INFO,User logout,alice,10.0.0.18,ssh,1147
+2025-03-06 10:32:19,INFO,User logout,alice,10.0.0.25,ssh,3870
+2025-03-06 10:32:45,INFO,Page request served,alice,10.0.0.4,http,3290
+2025-03-06 10:36:41,INFO,Email sent,charlie,10.0.0.26,smtp,4815
+2025-03-06 10:37:20,INFO,DNS query resolved,eve,10.0.0.28,dns,3783
+2025-03-06 10:38:06,INFO,Page request served,charlie,10.0.0.1,http,2724
+2025-03-06 10:38:11,INFO,DNS query resolved,charlie,10.0.0.8,dns,3390
+2025-03-06 10:39:32,INFO,File downloaded,eve,10.0.0.28,ftp,4085
+2025-03-06 10:41:03,INFO,User logout,dave,10.0.0.20,ssh,3588
+2025-03-06 10:42:26,INFO,User logout,admin,10.0.0.23,ssh,554
+2025-03-06 10:47:13,INFO,Database query executed,charlie,10.0.0.18,mysql,4413
+2025-03-06 10:47:23,INFO,User logout,dave,10.0.0.23,ssh,3554
+2025-03-06 10:48:21,INFO,Database query executed,frank,10.0.0.28,mysql,390
+2025-03-06 10:48:43,INFO,User logout,admin,10.0.0.19,ssh,3052
+2025-03-06 10:49:52,INFO,Page request served,dave,10.0.0.1,http,2619
+2025-03-06 10:51:46,INFO,DNS query resolved,bob,10.0.0.4,dns,3375
+2025-03-06 10:55:20,INFO,Page request served,frank,10.0.0.6,http,2765
+2025-03-06 10:58:08,WARNING,Slow query detected,eve,10.0.0.10,mysql,4605
+2025-03-06 10:59:08,INFO,Email sent,eve,10.0.0.3,smtp,3867
+2025-03-06 10:59:16,INFO,DNS query resolved,frank,10.0.0.3,dns,2350
+2025-03-06 10:59:26,INFO,File downloaded,frank,10.0.0.29,ftp,4946
+2025-03-06 11:00:51,INFO,User login success,admin,10.0.0.29,ssh,2203
+2025-03-06 11:01:53,INFO,File downloaded,admin,10.0.0.17,ftp,998
+2025-03-06 11:02:03,INFO,Page request served,dave,10.0.0.22,http,1222
+2025-03-06 11:04:19,WARNING,Slow query detected,bob,10.0.0.25,mysql,3517
+2025-03-06 11:04:53,WARNING,Slow query detected,eve,10.0.0.3,mysql,2755
+2025-03-06 11:05:09,INFO,File downloaded,charlie,10.0.0.23,ftp,4139
+2025-03-06 11:05:35,INFO,Database query executed,admin,10.0.0.6,mysql,1237
+2025-03-06 11:07:44,WARNING,Slow query detected,eve,10.0.0.18,mysql,2773
+2025-03-06 11:08:43,INFO,DNS query resolved,eve,10.0.0.14,dns,2112
+2025-03-06 11:08:58,INFO,SSL handshake completed,bob,10.0.0.28,https,710
+2025-03-06 11:09:37,INFO,SSL handshake completed,charlie,10.0.0.22,https,3099
+2025-03-06 11:10:55,INFO,User login success,charlie,10.0.0.2,ssh,3311
+2025-03-06 11:11:02,INFO,DNS query resolved,eve,10.0.0.23,dns,3274
+2025-03-06 11:11:12,INFO,SSL handshake completed,bob,10.0.0.4,https,2346
+2025-03-06 11:11:44,INFO,File downloaded,alice,10.0.0.4,ftp,1263
+2025-03-06 11:11:46,INFO,SSL handshake completed,charlie,10.0.0.22,https,4456
+2025-03-06 11:12:02,INFO,Page request served,dave,10.0.0.17,http,1806
+2025-03-06 11:12:02,ERROR,Failed login attempt,admin,203.0.113.50,ssh,92
+2025-03-06 11:12:08,INFO,User logout,bob,10.0.0.10,ssh,2123
+2025-03-06 11:12:08,ERROR,Failed login attempt,admin,203.0.113.50,ssh,147
+2025-03-06 11:12:09,ERROR,Failed login attempt,admin,203.0.113.50,ssh,195
+2025-03-06 11:12:09,ERROR,Failed login attempt,admin,203.0.113.50,ssh,126
+2025-03-06 11:12:10,ERROR,Failed login attempt,admin,203.0.113.50,ssh,164
+2025-03-06 11:12:10,ERROR,Failed login attempt,admin,203.0.113.50,ssh,198
+2025-03-06 11:12:12,ERROR,Failed login attempt,admin,203.0.113.50,ssh,68
+2025-03-06 11:12:12,ERROR,Failed login attempt,admin,203.0.113.50,ssh,127
+2025-03-06 11:12:14,ERROR,Failed login attempt,admin,203.0.113.50,ssh,140
+2025-03-06 11:12:16,ERROR,Failed login attempt,admin,203.0.113.50,ssh,122
+2025-03-06 11:12:17,ERROR,Failed login attempt,admin,203.0.113.50,ssh,140
+2025-03-06 11:12:20,ERROR,Failed login attempt,admin,203.0.113.50,ssh,108
+2025-03-06 11:12:21,ERROR,Failed login attempt,admin,203.0.113.50,ssh,154
+2025-03-06 11:12:23,ERROR,Failed login attempt,admin,203.0.113.50,ssh,148
+2025-03-06 11:12:26,ERROR,Failed login attempt,admin,203.0.113.50,ssh,142
+2025-03-06 11:12:26,ERROR,Failed login attempt,admin,203.0.113.50,ssh,102
+2025-03-06 11:12:26,ERROR,Failed login attempt,admin,203.0.113.50,ssh,116
+2025-03-06 11:12:26,ERROR,Failed login attempt,admin,203.0.113.50,ssh,192
+2025-03-06 11:12:28,ERROR,Failed login attempt,admin,203.0.113.50,ssh,144
+2025-03-06 11:12:29,ERROR,Failed login attempt,admin,203.0.113.50,ssh,200
+2025-03-06 11:12:30,ERROR,Failed login attempt,admin,203.0.113.50,ssh,68
+2025-03-06 11:12:32,ERROR,Failed login attempt,admin,203.0.113.50,ssh,194
+2025-03-06 11:12:33,ERROR,Failed login attempt,admin,203.0.113.50,ssh,180
+2025-03-06 11:12:33,ERROR,Failed login attempt,admin,203.0.113.50,ssh,117
+2025-03-06 11:12:33,ERROR,Failed login attempt,admin,203.0.113.50,ssh,160
+2025-03-06 11:12:34,ERROR,Failed login attempt,admin,203.0.113.50,ssh,189
+2025-03-06 11:12:35,ERROR,Failed login attempt,admin,203.0.113.50,ssh,147
+2025-03-06 11:12:37,ERROR,Failed login attempt,admin,203.0.113.50,ssh,150
+2025-03-06 11:12:37,ERROR,Failed login attempt,admin,203.0.113.50,ssh,186
+2025-03-06 11:12:38,ERROR,Failed login attempt,admin,203.0.113.50,ssh,185
+2025-03-06 11:12:39,ERROR,Failed login attempt,admin,203.0.113.50,ssh,140
+2025-03-06 11:12:39,ERROR,Failed login attempt,admin,203.0.113.50,ssh,187
+2025-03-06 11:12:40,ERROR,Failed login attempt,admin,203.0.113.50,ssh,161
+2025-03-06 11:12:42,ERROR,Failed login attempt,admin,203.0.113.50,ssh,186
+2025-03-06 11:12:43,ERROR,Failed login attempt,admin,203.0.113.50,ssh,92
+2025-03-06 11:12:43,ERROR,Failed login attempt,admin,203.0.113.50,ssh,131
+2025-03-06 11:12:45,ERROR,Failed login attempt,admin,203.0.113.50,ssh,140
+2025-03-06 11:12:45,ERROR,Failed login attempt,admin,203.0.113.50,ssh,99
+2025-03-06 11:12:46,ERROR,Failed login attempt,admin,203.0.113.50,ssh,77
+2025-03-06 11:12:49,ERROR,Failed login attempt,admin,203.0.113.50,ssh,184
+2025-03-06 11:12:49,ERROR,Failed login attempt,admin,203.0.113.50,ssh,137
+2025-03-06 11:12:50,ERROR,Failed login attempt,admin,203.0.113.50,ssh,70
+2025-03-06 11:12:51,ERROR,Failed login attempt,admin,203.0.113.50,ssh,185
+2025-03-06 11:12:55,ERROR,Failed login attempt,admin,203.0.113.50,ssh,79
+2025-03-06 11:12:59,ERROR,Failed login attempt,admin,203.0.113.50,ssh,145
+2025-03-06 11:13:09,INFO,SSL handshake completed,frank,10.0.0.14,https,1330
+2025-03-06 11:13:46,INFO,DNS query resolved,bob,10.0.0.9,dns,4947
+2025-03-06 11:15:24,INFO,Email sent,eve,10.0.0.8,smtp,906
+2025-03-06 11:15:46,INFO,Database query executed,charlie,10.0.0.5,mysql,2064
+2025-03-06 11:17:34,INFO,User logout,eve,10.0.0.15,ssh,486
+2025-03-06 11:17:46,WARNING,Slow query detected,dave,10.0.0.2,mysql,1320
+2025-03-06 11:18:01,INFO,DNS query resolved,alice,10.0.0.7,dns,2863
+2025-03-06 11:18:14,INFO,DNS query resolved,alice,10.0.0.2,dns,2037
+2025-03-06 11:18:24,INFO,SSL handshake completed,frank,10.0.0.24,https,1374
+2025-03-06 11:18:44,INFO,Database query executed,bob,10.0.0.13,mysql,3412
+2025-03-06 11:18:54,WARNING,Slow query detected,admin,10.0.0.22,mysql,2768
+2025-03-06 11:20:24,WARNING,Slow query detected,bob,10.0.0.21,mysql,2347
+2025-03-06 11:20:37,INFO,SSL handshake completed,bob,10.0.0.26,https,740
+2025-03-06 11:21:17,INFO,DNS query resolved,dave,10.0.0.13,dns,3107
+2025-03-06 11:21:48,INFO,DNS query resolved,alice,10.0.0.15,dns,4514
+2025-03-06 11:23:48,INFO,Database query executed,dave,10.0.0.12,mysql,1245
+2025-03-06 11:23:52,INFO,DNS query resolved,eve,10.0.0.1,dns,2989
+2025-03-06 11:24:12,INFO,File downloaded,dave,10.0.0.25,ftp,4408
+2025-03-06 11:24:45,INFO,Email sent,admin,10.0.0.11,smtp,875
+2025-03-06 11:27:02,INFO,Database query executed,alice,10.0.0.15,mysql,2741
+2025-03-06 11:27:44,INFO,User logout,admin,10.0.0.12,ssh,2510
+2025-03-06 11:28:24,INFO,User logout,dave,10.0.0.9,ssh,4596
+2025-03-06 11:28:55,INFO,User login success,frank,10.0.0.16,ssh,1886
+2025-03-06 11:29:09,INFO,Email sent,frank,10.0.0.25,smtp,3429
+2025-03-06 11:30:51,INFO,File downloaded,charlie,10.0.0.2,ftp,1098
+2025-03-06 11:30:59,INFO,SSL handshake completed,charlie,10.0.0.25,https,4568
+2025-03-06 11:32:42,INFO,User login success,frank,10.0.0.29,ssh,4780
+2025-03-06 11:36:04,INFO,User logout,alice,10.0.0.9,ssh,1207
+2025-03-06 11:37:45,INFO,File downloaded,frank,10.0.0.12,ftp,4282
+2025-03-06 11:38:50,INFO,User logout,admin,10.0.0.19,ssh,503
+2025-03-06 11:40:30,INFO,Page request served,dave,10.0.0.8,http,4806
+2025-03-06 11:41:46,INFO,SSL handshake completed,frank,10.0.0.1,https,2553
+2025-03-06 11:43:54,INFO,File downloaded,admin,10.0.0.16,ftp,2235
+2025-03-06 11:44:21,INFO,Database query executed,frank,10.0.0.22,mysql,3528
+2025-03-06 11:44:23,INFO,Database query executed,eve,10.0.0.24,mysql,2009
+2025-03-06 11:44:48,INFO,User logout,bob,10.0.0.22,ssh,3344
+2025-03-06 11:45:10,INFO,User login success,alice,10.0.0.24,ssh,2785
+2025-03-06 11:45:59,INFO,Database query executed,frank,10.0.0.15,mysql,3330
+2025-03-06 11:46:34,WARNING,Slow query detected,bob,10.0.0.18,mysql,3880
+2025-03-06 11:46:54,INFO,User logout,charlie,10.0.0.8,ssh,3805
+2025-03-06 11:47:04,INFO,User login success,alice,10.0.0.27,ssh,3505
+2025-03-06 11:47:11,INFO,Page request served,bob,10.0.0.14,http,2624
+2025-03-06 11:48:53,INFO,File downloaded,charlie,10.0.0.21,ftp,875
+2025-03-06 11:49:06,INFO,Email sent,charlie,10.0.0.19,smtp,2342
+2025-03-06 11:49:16,INFO,User logout,admin,10.0.0.4,ssh,4158
+2025-03-06 11:53:58,WARNING,Slow query detected,bob,10.0.0.8,mysql,1197
+2025-03-06 11:54:11,INFO,DNS query resolved,dave,10.0.0.20,dns,557
+2025-03-06 11:54:25,INFO,User login success,dave,10.0.0.12,ssh,2034
+2025-03-06 11:55:51,INFO,Page request served,eve,10.0.0.24,http,3116
+2025-03-06 11:56:45,INFO,Database query executed,eve,10.0.0.29,mysql,3830
+2025-03-06 11:57:00,INFO,Page request served,frank,10.0.0.21,http,887
+2025-03-06 11:57:19,INFO,Database query executed,eve,10.0.0.26,mysql,2633
+2025-03-06 11:57:56,WARNING,Slow query detected,dave,10.0.0.3,mysql,3306
+2025-03-06 11:58:14,INFO,User login success,charlie,10.0.0.3,ssh,2628
+2025-03-06 11:58:19,INFO,SSL handshake completed,admin,10.0.0.13,https,4787
+2025-03-06 11:58:38,WARNING,Slow query detected,eve,10.0.0.15,mysql,3231
+2025-03-06 11:59:15,INFO,SSL handshake completed,charlie,10.0.0.4,https,2094
+2025-03-06 11:59:16,INFO,User logout,admin,10.0.0.1,ssh,2024
+2025-03-06 11:59:58,INFO,SSL handshake completed,dave,10.0.0.20,https,1364
+2025-03-06 12:00:37,INFO,User logout,frank,10.0.0.10,ssh,3192
+2025-03-06 12:02:18,INFO,File downloaded,eve,10.0.0.10,ftp,301
+2025-03-06 12:02:35,INFO,DNS query resolved,frank,10.0.0.24,dns,3741
+2025-03-06 12:03:31,INFO,File downloaded,eve,10.0.0.28,ftp,3952
+2025-03-06 12:04:49,INFO,Database query executed,dave,10.0.0.19,mysql,957
+2025-03-06 12:05:44,INFO,User logout,eve,10.0.0.17,ssh,2886
+2025-03-06 12:05:47,INFO,DNS query resolved,frank,10.0.0.8,dns,2335
+2025-03-06 12:06:02,INFO,User logout,bob,10.0.0.28,ssh,4885
+2025-03-06 12:06:02,INFO,User logout,bob,10.0.0.2,ssh,1960
+2025-03-06 12:06:51,INFO,SSL handshake completed,alice,10.0.0.20,https,419
+2025-03-06 12:07:45,INFO,Database query executed,alice,10.0.0.12,mysql,2616
+2025-03-06 12:08:43,WARNING,Slow query detected,eve,10.0.0.19,mysql,1656
+2025-03-06 12:09:17,INFO,File downloaded,frank,10.0.0.15,ftp,4415
+2025-03-06 12:09:29,INFO,DNS query resolved,alice,10.0.0.13,dns,4022
+2025-03-06 12:09:42,INFO,Email sent,alice,10.0.0.19,smtp,2954
+2025-03-06 12:12:00,INFO,Page request served,eve,10.0.0.27,http,1325
+2025-03-06 12:12:10,INFO,User logout,admin,10.0.0.2,ssh,3084
+2025-03-06 12:12:18,WARNING,Slow query detected,admin,10.0.0.7,mysql,4311
+2025-03-06 12:13:22,INFO,User logout,eve,10.0.0.29,ssh,4688
+2025-03-06 12:13:42,INFO,User login success,dave,10.0.0.8,ssh,1058
+2025-03-06 12:15:03,INFO,User login success,eve,10.0.0.21,ssh,870
+2025-03-06 12:16:57,INFO,SSL handshake completed,eve,10.0.0.15,https,2342
+2025-03-06 12:20:23,INFO,SSL handshake completed,frank,10.0.0.17,https,1353
+2025-03-06 12:21:26,INFO,User logout,bob,10.0.0.6,ssh,484
+2025-03-06 12:22:53,INFO,Email sent,frank,10.0.0.13,smtp,544
+2025-03-06 12:25:14,INFO,User logout,charlie,10.0.0.9,ssh,1829
+2025-03-06 12:25:45,INFO,SSL handshake completed,eve,10.0.0.10,https,436
+2025-03-06 12:26:38,INFO,Email sent,bob,10.0.0.14,smtp,4042
+2025-03-06 12:26:49,INFO,SSL handshake completed,frank,10.0.0.8,https,3964
+2025-03-06 12:31:37,INFO,User login success,admin,10.0.0.13,ssh,4204
+2025-03-06 12:32:07,INFO,SSL handshake completed,charlie,10.0.0.16,https,2591
+2025-03-06 12:32:10,INFO,DNS query resolved,dave,10.0.0.23,dns,2303
+2025-03-06 12:32:32,INFO,SSL handshake completed,charlie,10.0.0.18,https,1028
+2025-03-06 12:33:12,INFO,SSL handshake completed,frank,10.0.0.22,https,2965
+2025-03-06 12:33:19,INFO,SSL handshake completed,charlie,10.0.0.15,https,722
+2025-03-06 12:33:48,INFO,File downloaded,admin,10.0.0.15,ftp,911
+2025-03-06 12:34:09,INFO,Database query executed,alice,10.0.0.13,mysql,732
+2025-03-06 12:34:19,INFO,Database query executed,frank,10.0.0.4,mysql,3670
+2025-03-06 12:34:28,INFO,File downloaded,dave,10.0.0.19,ftp,1327
+2025-03-06 12:34:39,INFO,SSL handshake completed,charlie,10.0.0.6,https,1699
+2025-03-06 12:35:59,INFO,User login success,dave,10.0.0.7,ssh,4528
+2025-03-06 12:37:04,INFO,SSL handshake completed,dave,10.0.0.1,https,3262
+2025-03-06 12:37:15,INFO,Page request served,frank,10.0.0.21,http,2508
+2025-03-06 12:37:15,INFO,SSL handshake completed,frank,10.0.0.24,https,4377
+2025-03-06 12:37:34,INFO,File downloaded,frank,10.0.0.3,ftp,2327
+2025-03-06 12:38:16,INFO,User logout,admin,10.0.0.25,ssh,449
+2025-03-06 12:45:53,INFO,Database query executed,admin,10.0.0.17,mysql,4521
+2025-03-06 12:47:18,INFO,Page request served,eve,10.0.0.3,http,3965
+2025-03-06 12:48:10,WARNING,Slow query detected,alice,10.0.0.18,mysql,1711
+2025-03-06 12:49:46,INFO,SSL handshake completed,alice,10.0.0.29,https,2926
+2025-03-06 12:50:05,WARNING,Slow query detected,dave,10.0.0.22,mysql,1539
+2025-03-06 12:51:42,INFO,Email sent,alice,10.0.0.15,smtp,3172
+2025-03-06 12:53:56,INFO,SSL handshake completed,frank,10.0.0.20,https,1870
+2025-03-06 12:54:08,INFO,User logout,bob,10.0.0.11,ssh,4585
+2025-03-06 12:55:01,INFO,DNS query resolved,frank,10.0.0.6,dns,964
+2025-03-06 12:56:05,INFO,DNS query resolved,bob,10.0.0.28,dns,1354
+2025-03-06 12:57:21,INFO,Database query executed,admin,10.0.0.13,mysql,2324
+2025-03-06 12:57:57,INFO,User login success,frank,10.0.0.12,ssh,4835
+2025-03-06 12:58:11,INFO,Database query executed,frank,10.0.0.21,mysql,1498
+2025-03-06 12:59:28,INFO,Database query executed,charlie,10.0.0.20,mysql,4410
+2025-03-06 12:59:43,INFO,SSL handshake completed,charlie,10.0.0.4,https,2424
+2025-03-06 13:01:03,INFO,File downloaded,charlie,10.0.0.7,ftp,4974
+2025-03-06 13:01:27,INFO,Page request served,alice,10.0.0.1,http,3410
+2025-03-06 13:01:36,WARNING,Slow query detected,admin,10.0.0.8,mysql,993
+2025-03-06 13:01:45,INFO,File downloaded,charlie,10.0.0.5,ftp,406
+2025-03-06 13:02:30,INFO,Email sent,dave,10.0.0.8,smtp,122
+2025-03-06 13:02:43,INFO,User login success,charlie,10.0.0.26,ssh,4747
+2025-03-06 13:04:43,WARNING,Slow query detected,bob,10.0.0.9,mysql,1295
+2025-03-06 13:05:14,INFO,Database query executed,frank,10.0.0.29,mysql,3689
+2025-03-06 13:06:19,INFO,User login success,admin,10.0.0.3,ssh,1285
+2025-03-06 13:06:42,INFO,SSL handshake completed,bob,10.0.0.22,https,1065
+2025-03-06 13:06:44,INFO,Page request served,bob,10.0.0.8,http,3885
+2025-03-06 13:08:13,INFO,User login success,admin,10.0.0.21,ssh,3575
+2025-03-06 13:09:17,WARNING,Slow query detected,admin,10.0.0.5,mysql,315
+2025-03-06 13:11:12,WARNING,Slow query detected,bob,10.0.0.1,mysql,4113
+2025-03-06 13:11:39,WARNING,Slow query detected,alice,10.0.0.22,mysql,765
+2025-03-06 13:12:32,INFO,Database query executed,charlie,10.0.0.26,mysql,4583
+2025-03-06 13:13:32,INFO,Email sent,frank,10.0.0.14,smtp,4659
+2025-03-06 13:13:55,INFO,DNS query resolved,eve,10.0.0.10,dns,243
+2025-03-06 13:14:03,INFO,Email sent,eve,10.0.0.5,smtp,2450
+2025-03-06 13:14:26,WARNING,Slow query detected,dave,10.0.0.13,mysql,3485
+2025-03-06 13:14:27,WARNING,Slow query detected,charlie,10.0.0.23,mysql,1688
+2025-03-06 13:14:42,INFO,User login success,frank,10.0.0.25,ssh,1499
+2025-03-06 13:24:41,INFO,User login success,dave,10.0.0.3,ssh,3498
+2025-03-06 13:24:58,INFO,DNS query resolved,charlie,10.0.0.4,dns,3903
+2025-03-06 13:25:53,INFO,SSL handshake completed,admin,10.0.0.21,https,4285
+2025-03-06 13:26:10,WARNING,Slow query detected,alice,10.0.0.6,mysql,1545
+2025-03-06 13:26:36,INFO,User login success,charlie,10.0.0.24,ssh,2704
+2025-03-06 13:29:42,INFO,DNS query resolved,admin,10.0.0.3,dns,1939
+2025-03-06 13:30:00,WARNING,Connection to unusual port,unknown,198.51.100.77,smtp,50
+2025-03-06 13:30:01,WARNING,Connection to unusual port,unknown,198.51.100.77,ssh,66
+2025-03-06 13:30:03,WARNING,Connection to unusual port,unknown,198.51.100.77,dns,48
+2025-03-06 13:30:04,WARNING,Connection to unusual port,unknown,198.51.100.77,ssh,79
+2025-03-06 13:30:06,WARNING,Connection to unusual port,unknown,198.51.100.77,mysql,74
+2025-03-06 13:30:07,WARNING,Connection to unusual port,unknown,198.51.100.77,ssh,73
+2025-03-06 13:30:07,WARNING,Connection to unusual port,unknown,198.51.100.77,dns,54
+2025-03-06 13:30:08,WARNING,Connection to unusual port,unknown,198.51.100.77,smtp,57
+2025-03-06 13:30:09,WARNING,Connection to unusual port,unknown,198.51.100.77,ssh,76
+2025-03-06 13:30:09,WARNING,Connection to unusual port,unknown,198.51.100.77,ssh,58
+2025-03-06 13:30:09,WARNING,Connection to unusual port,unknown,198.51.100.77,dns,43
+2025-03-06 13:30:09,WARNING,Connection to unusual port,unknown,198.51.100.77,smtp,78
+2025-03-06 13:30:10,WARNING,Connection to unusual port,unknown,198.51.100.77,ftp,62
+2025-03-06 13:30:10,WARNING,Connection to unusual port,unknown,198.51.100.77,dns,70
+2025-03-06 13:30:11,WARNING,Connection to unusual port,unknown,198.51.100.77,ftp,56
+2025-03-06 13:30:13,WARNING,Connection to unusual port,unknown,198.51.100.77,dns,70
+2025-03-06 13:30:15,WARNING,Connection to unusual port,unknown,198.51.100.77,dns,52
+2025-03-06 13:30:17,WARNING,Connection to unusual port,unknown,198.51.100.77,mysql,57
+2025-03-06 13:30:17,WARNING,Connection to unusual port,unknown,198.51.100.77,dns,42
+2025-03-06 13:30:19,INFO,Email sent,eve,10.0.0.11,smtp,1731
+2025-03-06 13:30:20,WARNING,Connection to unusual port,unknown,198.51.100.77,smtp,54
+2025-03-06 13:30:21,WARNING,Connection to unusual port,unknown,198.51.100.77,smtp,64
+2025-03-06 13:30:22,WARNING,Connection to unusual port,unknown,198.51.100.77,http,71
+2025-03-06 13:30:23,WARNING,Connection to unusual port,unknown,198.51.100.77,ftp,53
+2025-03-06 13:30:23,WARNING,Connection to unusual port,unknown,198.51.100.77,smtp,55
+2025-03-06 13:30:24,WARNING,Connection to unusual port,unknown,198.51.100.77,https,60
+2025-03-06 13:30:25,WARNING,Connection to unusual port,unknown,198.51.100.77,ftp,51
+2025-03-06 13:30:28,WARNING,Connection to unusual port,unknown,198.51.100.77,ftp,62
+2025-03-06 13:30:28,WARNING,Connection to unusual port,unknown,198.51.100.77,mysql,51
+2025-03-06 13:30:28,WARNING,Connection to unusual port,unknown,198.51.100.77,ssh,40
+2025-03-06 13:30:29,WARNING,Connection to unusual port,unknown,198.51.100.77,mysql,45
+2025-03-06 13:30:29,WARNING,Connection to unusual port,unknown,198.51.100.77,http,66
+2025-03-06 13:30:29,WARNING,Connection to unusual port,unknown,198.51.100.77,ssh,65
+2025-03-06 13:30:29,WARNING,Connection to unusual port,unknown,198.51.100.77,dns,58
+2025-03-06 13:30:30,WARNING,Connection to unusual port,unknown,198.51.100.77,mysql,49
+2025-03-06 13:30:30,WARNING,Connection to unusual port,unknown,198.51.100.77,dns,45
+2025-03-06 13:31:07,INFO,Email sent,frank,10.0.0.17,smtp,3180
+2025-03-06 13:31:19,INFO,Database query executed,charlie,10.0.0.15,mysql,3686
+2025-03-06 13:31:32,INFO,Database query executed,alice,10.0.0.21,mysql,1621
+2025-03-06 13:32:56,INFO,Page request served,frank,10.0.0.7,http,1792
+2025-03-06 13:34:09,INFO,DNS query resolved,eve,10.0.0.16,dns,1703
+2025-03-06 13:34:35,INFO,SSL handshake completed,charlie,10.0.0.27,https,4552
+2025-03-06 13:35:52,INFO,SSL handshake completed,charlie,10.0.0.15,https,4818
+2025-03-06 13:37:34,INFO,User login success,charlie,10.0.0.29,ssh,4533
+2025-03-06 13:38:26,INFO,Email sent,charlie,10.0.0.19,smtp,1236
+2025-03-06 13:39:05,INFO,DNS query resolved,eve,10.0.0.25,dns,1184
+2025-03-06 13:39:50,INFO,SSL handshake completed,admin,10.0.0.13,https,4912
+2025-03-06 13:40:19,INFO,Database query executed,eve,10.0.0.28,mysql,1084
+2025-03-06 13:43:06,INFO,Page request served,eve,10.0.0.21,http,386
+2025-03-06 13:44:49,INFO,DNS query resolved,frank,10.0.0.9,dns,4908
+2025-03-06 13:49:12,INFO,Page request served,admin,10.0.0.24,http,2317
+2025-03-06 13:49:14,INFO,User login success,admin,10.0.0.22,ssh,3391
+2025-03-06 13:50:10,INFO,User logout,frank,10.0.0.12,ssh,4606
+2025-03-06 13:51:09,INFO,Database query executed,frank,10.0.0.21,mysql,2653
+2025-03-06 13:51:25,INFO,Database query executed,frank,10.0.0.5,mysql,4376
+2025-03-06 13:52:44,INFO,User logout,charlie,10.0.0.26,ssh,205
+2025-03-06 13:52:52,INFO,File downloaded,admin,10.0.0.8,ftp,3650
+2025-03-06 13:55:14,INFO,DNS query resolved,dave,10.0.0.26,dns,4472
+2025-03-06 13:55:59,INFO,Email sent,bob,10.0.0.20,smtp,3960
+2025-03-06 13:59:00,INFO,SSL handshake completed,bob,10.0.0.9,https,1737
+2025-03-06 13:59:49,INFO,Page request served,bob,10.0.0.17,http,2809
+2025-03-06 13:59:53,WARNING,Slow query detected,bob,10.0.0.14,mysql,3431
+2025-03-06 14:01:01,INFO,User login success,alice,10.0.0.1,ssh,2998
+2025-03-06 14:01:05,INFO,Email sent,charlie,10.0.0.4,smtp,4525
+2025-03-06 14:01:28,INFO,User logout,alice,10.0.0.7,ssh,2494
+2025-03-06 14:03:14,INFO,DNS query resolved,bob,10.0.0.5,dns,3949
+2025-03-06 14:04:43,INFO,Database query executed,eve,10.0.0.3,mysql,4569
+2025-03-06 14:05:45,INFO,Database query executed,alice,10.0.0.9,mysql,3306
+2025-03-06 14:08:04,INFO,Page request served,bob,10.0.0.15,http,3537
+2025-03-06 14:08:15,INFO,User login success,frank,10.0.0.22,ssh,2271
+2025-03-06 14:08:58,INFO,Email sent,dave,10.0.0.16,smtp,1454
+2025-03-06 14:09:34,INFO,SSL handshake completed,admin,10.0.0.19,https,3520
+2025-03-06 14:09:54,INFO,File downloaded,dave,10.0.0.19,ftp,2529
+2025-03-06 14:10:03,INFO,SSL handshake completed,alice,10.0.0.3,https,3682
+2025-03-06 14:10:51,INFO,User logout,bob,10.0.0.12,ssh,3700
+2025-03-06 14:12:18,INFO,SSL handshake completed,frank,10.0.0.9,https,2850
+2025-03-06 14:14:42,INFO,Page request served,charlie,10.0.0.23,http,3697
+2025-03-06 14:15:27,INFO,DNS query resolved,dave,10.0.0.16,dns,2121
+2025-03-06 14:16:06,INFO,DNS query resolved,eve,10.0.0.13,dns,2294
+2025-03-06 14:18:59,INFO,File downloaded,eve,10.0.0.7,ftp,590
+2025-03-06 14:21:16,WARNING,Slow query detected,bob,10.0.0.9,mysql,1337
+2025-03-06 14:22:52,INFO,DNS query resolved,eve,10.0.0.14,dns,1019
+2025-03-06 14:22:56,INFO,DNS query resolved,dave,10.0.0.1,dns,4296
+2025-03-06 14:23:17,INFO,Page request served,dave,10.0.0.21,http,1465
+2025-03-06 14:24:13,INFO,DNS query resolved,dave,10.0.0.26,dns,4397
+2025-03-06 14:26:17,INFO,File downloaded,charlie,10.0.0.6,ftp,4338
+2025-03-06 14:27:38,INFO,File downloaded,bob,10.0.0.18,ftp,176
+2025-03-06 14:28:44,INFO,File downloaded,frank,10.0.0.12,ftp,4231
+2025-03-06 14:29:21,INFO,DNS query resolved,charlie,10.0.0.22,dns,3123
+2025-03-06 14:31:32,INFO,User logout,dave,10.0.0.14,ssh,3418
+2025-03-06 14:32:18,WARNING,Slow query detected,charlie,10.0.0.13,mysql,2062
+2025-03-06 14:33:04,INFO,DNS query resolved,dave,10.0.0.10,dns,3409
+2025-03-06 14:33:40,INFO,Email sent,charlie,10.0.0.15,smtp,1935
+2025-03-06 14:33:49,INFO,Database query executed,alice,10.0.0.25,mysql,1369
+2025-03-06 14:34:05,INFO,Database query executed,frank,10.0.0.19,mysql,4948
+2025-03-06 14:35:02,INFO,User logout,alice,10.0.0.26,ssh,3938
+2025-03-06 14:35:29,INFO,File downloaded,frank,10.0.0.15,ftp,1109
+2025-03-06 14:35:43,INFO,SSL handshake completed,dave,10.0.0.10,https,887
+2025-03-06 14:36:56,INFO,Database query executed,dave,10.0.0.14,mysql,2313
+2025-03-06 14:37:05,WARNING,Slow query detected,admin,10.0.0.14,mysql,4999
+2025-03-06 14:37:10,INFO,SSL handshake completed,bob,10.0.0.15,https,319
+2025-03-06 14:37:18,INFO,Database query executed,frank,10.0.0.13,mysql,3061
+2025-03-06 14:39:57,INFO,File downloaded,admin,10.0.0.10,ftp,2740
+2025-03-06 14:44:48,INFO,User logout,dave,10.0.0.23,ssh,3567
+2025-03-06 14:45:00,CRITICAL,High volume request flood,unknown,192.0.2.99,http,32092
+2025-03-06 14:45:00,CRITICAL,High volume request flood,unknown,198.51.100.77,http,33563
+2025-03-06 14:45:00,CRITICAL,High volume request flood,unknown,192.0.2.99,http,24280
+2025-03-06 14:45:01,CRITICAL,High volume request flood,unknown,198.51.100.77,http,26676
+2025-03-06 14:45:03,CRITICAL,High volume request flood,unknown,192.0.2.99,http,43127
+2025-03-06 14:45:04,CRITICAL,High volume request flood,unknown,192.0.2.99,http,17353
+2025-03-06 14:45:05,CRITICAL,High volume request flood,unknown,198.51.100.77,http,16251
+2025-03-06 14:45:05,CRITICAL,High volume request flood,unknown,192.0.2.99,http,39278
+2025-03-06 14:45:06,CRITICAL,High volume request flood,unknown,198.51.100.77,http,28649
+2025-03-06 14:45:07,CRITICAL,High volume request flood,unknown,203.0.113.50,http,45209
+2025-03-06 14:45:08,CRITICAL,High volume request flood,unknown,192.0.2.99,http,37225
+2025-03-06 14:45:08,CRITICAL,High volume request flood,unknown,192.0.2.99,http,32791
+2025-03-06 14:45:09,CRITICAL,High volume request flood,unknown,198.51.100.77,http,49697
+2025-03-06 14:45:09,CRITICAL,High volume request flood,unknown,203.0.113.50,http,31503
+2025-03-06 14:45:10,CRITICAL,High volume request flood,unknown,192.0.2.99,http,40075
+2025-03-06 14:45:11,CRITICAL,High volume request flood,unknown,192.0.2.99,http,36574
+2025-03-06 14:45:11,CRITICAL,High volume request flood,unknown,203.0.113.50,http,41290
+2025-03-06 14:45:12,CRITICAL,High volume request flood,unknown,203.0.113.50,http,31671
+2025-03-06 14:45:12,CRITICAL,High volume request flood,unknown,192.0.2.99,http,45170
+2025-03-06 14:45:14,CRITICAL,High volume request flood,unknown,203.0.113.50,http,41338
+2025-03-06 14:45:14,CRITICAL,High volume request flood,unknown,203.0.113.50,http,11489
+2025-03-06 14:45:14,CRITICAL,High volume request flood,unknown,203.0.113.50,http,40187
+2025-03-06 14:45:15,CRITICAL,High volume request flood,unknown,192.0.2.99,http,49047
+2025-03-06 14:45:16,CRITICAL,High volume request flood,unknown,198.51.100.77,http,25435
+2025-03-06 14:45:18,CRITICAL,High volume request flood,unknown,192.0.2.99,http,22659
+2025-03-06 14:45:19,CRITICAL,High volume request flood,unknown,192.0.2.99,http,47544
+2025-03-06 14:45:19,CRITICAL,High volume request flood,unknown,203.0.113.50,http,36569
+2025-03-06 14:45:19,CRITICAL,High volume request flood,unknown,198.51.100.77,http,45680
+2025-03-06 14:45:20,CRITICAL,High volume request flood,unknown,203.0.113.50,http,10447
+2025-03-06 14:45:23,CRITICAL,High volume request flood,unknown,192.0.2.99,http,24473
+2025-03-06 14:45:23,CRITICAL,High volume request flood,unknown,198.51.100.77,http,45994
+2025-03-06 14:45:23,CRITICAL,High volume request flood,unknown,198.51.100.77,http,39395
+2025-03-06 14:45:24,CRITICAL,High volume request flood,unknown,198.51.100.77,http,15259
+2025-03-06 14:45:25,CRITICAL,High volume request flood,unknown,192.0.2.99,http,18345
+2025-03-06 14:45:26,CRITICAL,High volume request flood,unknown,203.0.113.50,http,18875
+2025-03-06 14:45:27,INFO,SSL handshake completed,alice,10.0.0.9,https,2372
+2025-03-06 14:45:27,CRITICAL,High volume request flood,unknown,192.0.2.99,http,31491
+2025-03-06 14:45:27,CRITICAL,High volume request flood,unknown,198.51.100.77,http,14178
+2025-03-06 14:45:27,CRITICAL,High volume request flood,unknown,192.0.2.99,http,34856
+2025-03-06 14:45:28,CRITICAL,High volume request flood,unknown,198.51.100.77,http,31602
+2025-03-06 14:45:28,CRITICAL,High volume request flood,unknown,203.0.113.50,http,39716
+2025-03-06 14:45:29,CRITICAL,High volume request flood,unknown,192.0.2.99,http,45605
+2025-03-06 14:45:29,CRITICAL,High volume request flood,unknown,192.0.2.99,http,13783
+2025-03-06 14:45:30,CRITICAL,High volume request flood,unknown,192.0.2.99,http,24313
+2025-03-06 14:45:30,CRITICAL,High volume request flood,unknown,203.0.113.50,http,28814
+2025-03-06 14:45:31,CRITICAL,High volume request flood,unknown,203.0.113.50,http,43447
+2025-03-06 14:45:32,CRITICAL,High volume request flood,unknown,198.51.100.77,http,27880
+2025-03-06 14:45:33,CRITICAL,High volume request flood,unknown,198.51.100.77,http,18794
+2025-03-06 14:45:33,CRITICAL,High volume request flood,unknown,192.0.2.99,http,33709
+2025-03-06 14:45:33,CRITICAL,High volume request flood,unknown,198.51.100.77,http,17617
+2025-03-06 14:45:34,CRITICAL,High volume request flood,unknown,203.0.113.50,http,14523
+2025-03-06 14:45:35,CRITICAL,High volume request flood,unknown,198.51.100.77,http,30196
+2025-03-06 14:45:37,CRITICAL,High volume request flood,unknown,203.0.113.50,http,12968
+2025-03-06 14:45:41,CRITICAL,High volume request flood,unknown,198.51.100.77,http,22202
+2025-03-06 14:45:41,CRITICAL,High volume request flood,unknown,192.0.2.99,http,37548
+2025-03-06 14:45:42,CRITICAL,High volume request flood,unknown,203.0.113.50,http,40500
+2025-03-06 14:45:43,CRITICAL,High volume request flood,unknown,192.0.2.99,http,30380
+2025-03-06 14:45:43,CRITICAL,High volume request flood,unknown,203.0.113.50,http,48217
+2025-03-06 14:45:43,CRITICAL,High volume request flood,unknown,192.0.2.99,http,45343
+2025-03-06 14:45:44,CRITICAL,High volume request flood,unknown,203.0.113.50,http,14071
+2025-03-06 14:45:44,CRITICAL,High volume request flood,unknown,203.0.113.50,http,29335
+2025-03-06 14:48:13,WARNING,Slow query detected,alice,10.0.0.7,mysql,1146
+2025-03-06 14:51:23,INFO,Email sent,bob,10.0.0.12,smtp,455
+2025-03-06 14:51:29,WARNING,Slow query detected,frank,10.0.0.29,mysql,3496
+2025-03-06 14:51:52,INFO,Email sent,frank,10.0.0.22,smtp,3319
+2025-03-06 14:52:17,INFO,SSL handshake completed,admin,10.0.0.12,https,3585
+2025-03-06 14:54:25,INFO,User logout,charlie,10.0.0.20,ssh,107
+2025-03-06 14:55:10,INFO,Page request served,alice,10.0.0.25,http,4111
+2025-03-06 14:56:37,INFO,SSL handshake completed,charlie,10.0.0.15,https,2700
+2025-03-06 14:56:44,INFO,Page request served,dave,10.0.0.5,http,4401
+2025-03-06 14:57:20,INFO,DNS query resolved,bob,10.0.0.11,dns,1046
+2025-03-06 14:58:14,INFO,SSL handshake completed,charlie,10.0.0.21,https,2023
+2025-03-06 14:58:25,INFO,User logout,alice,10.0.0.8,ssh,1190
+2025-03-06 14:59:07,INFO,SSL handshake completed,admin,10.0.0.20,https,2254
+2025-03-06 14:59:18,INFO,File downloaded,charlie,10.0.0.17,ftp,517
+2025-03-06 15:01:08,INFO,File downloaded,eve,10.0.0.9,ftp,1387
+2025-03-06 15:01:20,INFO,Database query executed,alice,10.0.0.2,mysql,2950
+2025-03-06 15:01:59,WARNING,Slow query detected,bob,10.0.0.26,mysql,4223
+2025-03-06 15:02:57,INFO,Database query executed,eve,10.0.0.20,mysql,492
+2025-03-06 15:03:03,INFO,User logout,charlie,10.0.0.14,ssh,4917
+2025-03-06 15:05:07,WARNING,Slow query detected,alice,10.0.0.6,mysql,4307
+2025-03-06 15:06:39,INFO,User login success,frank,10.0.0.1,ssh,2089
+2025-03-06 15:07:17,WARNING,Slow query detected,frank,10.0.0.22,mysql,2096
+2025-03-06 15:08:12,INFO,User logout,bob,10.0.0.14,ssh,4616
+2025-03-06 15:09:32,INFO,SSL handshake completed,bob,10.0.0.17,https,4174
+2025-03-06 15:10:04,CRITICAL,Unauthorized privilege change,eve,192.0.2.99,ssh,438
+2025-03-06 15:10:35,CRITICAL,Unauthorized privilege change,eve,192.0.2.99,ssh,196
+2025-03-06 15:10:38,INFO,Page request served,bob,10.0.0.8,http,913
+2025-03-06 15:10:44,CRITICAL,Unauthorized privilege change,eve,192.0.2.99,ssh,179
+2025-03-06 15:11:01,INFO,Database query executed,admin,10.0.0.11,mysql,838
+2025-03-06 15:11:26,INFO,Email sent,dave,10.0.0.11,smtp,193
+2025-03-06 15:11:37,CRITICAL,Unauthorized privilege change,eve,192.0.2.99,ssh,157
+2025-03-06 15:11:59,CRITICAL,Unauthorized privilege change,eve,192.0.2.99,ssh,471
+2025-03-06 15:12:34,WARNING,Slow query detected,dave,10.0.0.3,mysql,3216
+2025-03-06 15:17:35,INFO,File downloaded,frank,10.0.0.9,ftp,491
+2025-03-06 15:19:13,INFO,Page request served,charlie,10.0.0.3,http,1217
+2025-03-06 15:19:39,INFO,Database query executed,charlie,10.0.0.9,mysql,606
+2025-03-06 15:20:27,INFO,DNS query resolved,eve,10.0.0.28,dns,2838
+2025-03-06 15:20:29,INFO,Email sent,alice,10.0.0.1,smtp,442
+2025-03-06 15:20:47,INFO,User login success,eve,10.0.0.15,ssh,4456
+2025-03-06 15:21:00,WARNING,Slow query detected,alice,10.0.0.4,mysql,858
+2025-03-06 15:22:03,INFO,User login success,frank,10.0.0.26,ssh,1371
+2025-03-06 15:22:53,INFO,Database query executed,eve,10.0.0.3,mysql,4197
+2025-03-06 15:23:11,INFO,File downloaded,admin,10.0.0.23,ftp,3813
+2025-03-06 15:23:20,INFO,File downloaded,dave,10.0.0.2,ftp,4868
+2025-03-06 15:24:18,INFO,SSL handshake completed,admin,10.0.0.15,https,785
+2025-03-06 15:25:19,INFO,SSL handshake completed,charlie,10.0.0.9,https,363
+2025-03-06 15:25:39,INFO,Page request served,frank,10.0.0.18,http,1094
+2025-03-06 15:29:06,INFO,File downloaded,dave,10.0.0.10,ftp,2695
+2025-03-06 15:29:39,INFO,Page request served,alice,10.0.0.11,http,671
+2025-03-06 15:30:41,INFO,User login success,admin,10.0.0.2,ssh,4788
+2025-03-06 15:32:56,INFO,DNS query resolved,admin,10.0.0.1,dns,2796
+2025-03-06 15:32:57,INFO,Database query executed,dave,10.0.0.7,mysql,633
+2025-03-06 15:33:18,WARNING,Slow query detected,bob,10.0.0.1,mysql,4700
+2025-03-06 15:33:30,INFO,User logout,eve,10.0.0.16,ssh,1557
+2025-03-06 15:34:01,INFO,File downloaded,eve,10.0.0.15,ftp,421
+2025-03-06 15:34:03,INFO,Page request served,dave,10.0.0.5,http,2555
+2025-03-06 15:34:13,INFO,DNS query resolved,admin,10.0.0.21,dns,803
+2025-03-06 15:34:43,INFO,Email sent,bob,10.0.0.8,smtp,3020
+2025-03-06 15:34:50,INFO,DNS query resolved,frank,10.0.0.26,dns,1949
+2025-03-06 15:35:18,INFO,User logout,dave,10.0.0.14,ssh,2355
+2025-03-06 15:36:04,INFO,Email sent,bob,10.0.0.22,smtp,4736
+2025-03-06 15:37:22,INFO,User logout,frank,10.0.0.5,ssh,3722
+2025-03-06 15:38:18,INFO,Database query executed,frank,10.0.0.5,mysql,1191
+2025-03-06 15:39:39,INFO,SSL handshake completed,dave,10.0.0.7,https,1316
+2025-03-06 15:40:18,INFO,User login success,alice,10.0.0.27,ssh,326
+2025-03-06 15:40:18,INFO,User logout,bob,10.0.0.18,ssh,130
+2025-03-06 15:41:53,INFO,SSL handshake completed,bob,10.0.0.3,https,3296
+2025-03-06 15:42:05,INFO,User login success,admin,10.0.0.21,ssh,3533
+2025-03-06 15:42:40,INFO,Page request served,charlie,10.0.0.5,http,2230
+2025-03-06 15:43:58,WARNING,Slow query detected,frank,10.0.0.16,mysql,928
+2025-03-06 15:44:22,INFO,Page request served,frank,10.0.0.19,http,400
+2025-03-06 15:44:44,INFO,Database query executed,alice,10.0.0.16,mysql,1801
+2025-03-06 15:45:29,INFO,SSL handshake completed,charlie,10.0.0.11,https,4061
+2025-03-06 15:47:07,INFO,Email sent,frank,10.0.0.4,smtp,3177
+2025-03-06 15:49:28,INFO,Database query executed,admin,10.0.0.17,mysql,2013
+2025-03-06 15:50:06,INFO,User login success,eve,10.0.0.24,ssh,1002
+2025-03-06 15:50:16,INFO,Page request served,alice,10.0.0.21,http,1374
+2025-03-06 15:50:29,INFO,Database query executed,eve,10.0.0.28,mysql,2893
+2025-03-06 15:52:21,INFO,SSL handshake completed,frank,10.0.0.1,https,4508
+2025-03-06 15:52:26,INFO,User login success,dave,10.0.0.24,ssh,4133
+2025-03-06 15:52:50,INFO,Database query executed,bob,10.0.0.4,mysql,3078
+2025-03-06 15:54:05,INFO,User login success,bob,10.0.0.20,ssh,2623
+2025-03-06 15:54:55,INFO,Email sent,eve,10.0.0.8,smtp,4748
+2025-03-06 15:55:25,INFO,DNS query resolved,eve,10.0.0.11,dns,1879
+2025-03-06 15:56:26,INFO,SSL handshake completed,admin,10.0.0.20,https,624
+2025-03-06 15:56:57,INFO,User logout,admin,10.0.0.21,ssh,3233
+2025-03-06 15:59:30,INFO,Page request served,admin,10.0.0.24,http,4045
+2025-03-06 15:59:34,INFO,File downloaded,bob,10.0.0.4,ftp,940
