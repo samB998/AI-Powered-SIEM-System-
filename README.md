@@ -13,12 +13,6 @@ The system runs a 6-step pipeline:
 5. Triggers automated response playbooks based on the attack type and severity
 6. Generates a security dashboard showing the detections
 
-## Why Isolation Forest
-
-Most ML models need labeled data — someone has to tag thousands of examples as "attack" or "not attack" before the model can learn. In real security work you don't have that. New attacks appear constantly and you can't label what you haven't seen yet.
-
-Isolation Forest is unsupervised. It figures out what normal looks like on its own, then flags anything that's easy to separate from the rest. If a time window gets isolated in 2-3 random splits instead of the usual 12-15, it's probably an anomaly.
-
 ## Project Structure
 
 ```
