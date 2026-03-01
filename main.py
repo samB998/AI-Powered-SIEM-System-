@@ -14,7 +14,7 @@ Pipeline:
   5. Simulate automated incident response (SOAR)
   6. Produce a visual security dashboard
 
-Author: [Your Name]
+Author: Sam
 Usage:  python main.py
 """
 
